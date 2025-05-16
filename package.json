@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "@vuepress/client": "2.0.0-beta.66",
+    "@vuepress/plugin-docsearch": "2.0.0-beta.66",
+    "@vuepress/plugin-toc": "2.0.0-beta.66",
+    "search-insights": "^2.7.0",
+    "vue": "^3.3.4",
+    "vuepress": "2.0.0-beta.66",
+    "webpack": "^5.0.0"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs-src",
+    "docs:build": "vuepress build docs-src"
+  },
+  "dependencies": {
+    "@algolia/client-search": "^4.19.1",
+    "vuepress-plugin-auto-catalog": "2.0.0-beta.233"
+  }
+}

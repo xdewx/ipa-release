@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Concert_One";
+  src: url("./fonts/Concert_One/ConcertOne-Regular.ttf");
+}
+* {
+  font-family: "Concert_One";
+  color: white;
+}
+body {
+  background-color: rgba(45, 43, 43, 0.815);
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}

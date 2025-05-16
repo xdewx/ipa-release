@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <title>智能个人助手</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./assets/index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/assets/bd_analytics.js"></script>
+  </head>
+  <body class="w-screen min-h-screen relative">
+    <div class="grid items-center">
+      <div><a href="/docs/">使用文档</a></div>
+    </div>
+    <h1
+      class="text-center animate__animated animate__backInDown animate__delay-1s pt-20 pb-12"
+      style="font-size: 3rem"
+    >
+      Intelligent Personal Assitance
+    </h1>
+    <div class="w-4/5 mx-auto">
+      <p class="description animate__heartBeat">
+        终极目标为个人生活、学习、工作等方方面面提供智能化解决方案，解决用户可能遇到的大小难题，为用户带来前所未有的便捷、高效的使用体验。软件设计为插件式机制，允许用户自定义扩展功能。目前版本迭代速度较快，欢迎持续关注！
+      </p>
+      <div class="grid items-center text-center mt-28 pb-12">
+        <div>下载地址：</div>
+        <div>
+          <a id='windows' href="https://url80.ctfile.com/d/64471180-67591627-5cb713?p=8073"
+            >Windows x86_64版本</a
+          >
+        </div>
+        <div>
+          <a id='linux' href="https://url80.ctfile.com/d/64471180-67591627-5cb713?p=8073"
+            >Linux amd64版本</a
+          >
+        </div>
+      </div>
+      <footer class="text-center absolute bottom-0 left-0 right-0">
+        &copy; 2023 <a href="https://ipa.leoking.xyz">IPA</a>. All rights
+        reserved.
+      </footer>
+    </div>
+  </body>
+  <style>
+    .description {
+      font-size: 1.5rem;
+      text-indent: 3rem;
+      margin: 10px;
+    }
+  </style>
+  <script type="module">
+    fetch("./release/latest.json").then(r=>r.json()).then(json=>{
+      console.log(json)
+    })
+  </script>
+</html>
