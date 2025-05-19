@@ -9,10 +9,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <link rel="stylesheet" href="./assets/index.css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="/assets/bd_analytics.js"></script>
+    <script src="/assets/bd_analytics.js" async></script>
   </head>
   <body class="w-screen h-screen relative overflow-hidden">
     <div class="grid items-center">
@@ -63,6 +62,7 @@
       margin: 10px;
     }
   </style>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   <script>
     const { createApp, ref } = Vue;
     createApp({
