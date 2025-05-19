@@ -5,7 +5,7 @@
     "platforms": {
         "linux-x86_64": {
             "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMHN5KzFlOGhmd2lKSWJBazlCMDQ0RXFGN0xXQ0VMZW1TeEJmUzJycGVlSXUreFBVK0R0K1dtMjZObnZGb1k1Q3l2N2tCdTMvNzBsS1h2U293ZE1WV0EzdWdiZzVlK3dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQ3MzkxNzA2CWZpbGU6aXBhXzAuMy4xX2FtZDY0LkFwcEltYWdlCnpxR3IrRFpkNitXNDlUWEZVc1dVU1BDRUNST21mWE95c1ExbVlNdkpUQmovV3QxN3gvbmcweTE2Q1JwOEd6cktsWUoxbjJQOGJXV1ZUcnJ0VStOOUF3PT0K",
-            "url": "https://zzqidppyimxhpxyq.public.blob.vercel-storage.com/linux/ipa_0.3.1_amd64.AppImage"
+            "url": "https://file.leoking.xyz/release/linux/ipa_0.3.1_amd64.AppImage"
         }
     }
 }

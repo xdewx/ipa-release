@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <link rel="stylesheet" href="./assets/index.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="/assets/bd_analytics.js"></script>
@@ -29,15 +30,24 @@
       </p>
       <div class="grid items-center text-center mt-28 pb-12">
         <div>下载地址：</div>
-        <div>
-          <a id='windows' href="https://url80.ctfile.com/d/64471180-67591627-5cb713?p=8073"
-            >Windows x86_64版本</a
-          >
-        </div>
-        <div>
-          <a id='linux' href="https://url80.ctfile.com/d/64471180-67591627-5cb713?p=8073"
-            >Linux amd64版本</a
-          >
+        <div id="download-info">
+          <div v-for="info,k in platforms" :key="k">
+            <a :id="k" :href="info.url">{{k}}</a>
+          </div>
+          <!-- <div>
+            <a
+              id="windows"
+              href="https://url80.ctfile.com/d/64471180-67591627-5cb713?p=8073"
+              >Windows x86_64版本</a
+            >
+          </div>
+          <div>
+            <a
+              id="linux"
+              href="https://url80.ctfile.com/d/64471180-67591627-5cb713?p=8073"
+              >Linux amd64版本</a
+            >
+          </div> -->
         </div>
       </div>
       <footer class="text-center absolute bottom-0 left-0 right-0">
@@ -53,9 +63,21 @@
       margin: 10px;
     }
   </style>
-  <script type="module">
-    fetch("./release/latest.json").then(r=>r.json()).then(json=>{
-      console.log(json)
-    })
+  <script>
+    const { createApp, ref } = Vue;
+    createApp({
+      setup() {
+        const platforms = ref({});
+        fetch("./release/latest.json")
+          .then((r) => r.json())
+          .then((json) => {
+            console.log(json);
+            platforms.value = json?.platforms || {};
+          });
+        return {
+          platforms,
+        };
+      },
+    }).mount("#download-info");
   </script>
 </html>
