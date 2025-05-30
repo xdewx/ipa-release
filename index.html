@@ -26,9 +26,9 @@
       <p class="description animate__heartBeat">
         终极目标为个人生活、学习、工作等方方面面提供智能化解决方案，解决用户可能遇到的大小难题，为用户带来前所未有的便捷、高效的使用体验。软件设计为插件式机制，允许用户自定义扩展功能。目前版本迭代速度较快，欢迎持续关注！
       </p>
-      <div class="grid items-center text-center mt-28 pb-12">
-        <div>下载地址：</div>
-        <div id="download-info">
+      <div id='download-info' class="grid items-center text-center mt-28 pb-12">
+        <div>最新版v{{ resp.version }}下载地址：</div>
+        <div>
           <div v-for="info,k in platforms" :key="k">
             <a :id="k" :href="info.url">{{k}}</a>
           </div>
@@ -66,14 +66,17 @@
     const { createApp, ref } = Vue;
     createApp({
       setup() {
+        const resp = ref({});
         const platforms = ref({});
         fetch("./release/latest.json")
           .then((r) => r.json())
           .then((json) => {
             console.log(json);
+            resp.value=json||{};
             platforms.value = json?.platforms || {};
           });
         return {
+          resp,
           platforms,
         };
       },
