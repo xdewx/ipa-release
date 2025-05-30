@@ -1,10 +1,10 @@
 {
     "version": "0.3.1",
-    "notes": "1. 优化剪贴板\n2. 修复若干BUG",
+    "notes": "1. 修复已知问题",
     "pub_date": "2022-12-21T10:00:00Z",
     "platforms": {
         "linux-x86_64": {
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMHN5KzFlOGhmd2lKSWJBazlCMDQ0RXFGN0xXQ0VMZW1TeEJmUzJycGVlSXUreFBVK0R0K1dtMjZObnZGb1k1Q3l2N2tCdTMvNzBsS1h2U293ZE1WV0EzdWdiZzVlK3dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQ3MzkxNzA2CWZpbGU6aXBhXzAuMy4xX2FtZDY0LkFwcEltYWdlCnpxR3IrRFpkNitXNDlUWEZVc1dVU1BDRUNST21mWE95c1ExbVlNdkpUQmovV3QxN3gvbmcweTE2Q1JwOEd6cktsWUoxbjJQOGJXV1ZUcnJ0VStOOUF3PT0K",
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMHN5KzFlOGhmd3JaMUhMa3U5V1AzeTVGck1idnhZWTZSM3BkYS9TUXJJTGxPWUFCR0Urd0FQRXhlQUpiaE5pRnJyZFdhelRBbUNocHllS0VWV3ZGU0xUdm9OTVZEb0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQ4NTgwMTI1CWZpbGU6aXBhXzAuMy4xX2FtZDY0LkFwcEltYWdlClpxZlplZm9mNGlSNEhzb0VxTFZIRlE2S3VZMmh2VFpIdENFbG1IQkNhcmkrbXFiZFk0ek9MZXdBczF4Z1pFNDZycXVCVFV4Vko4R3VBcXQ4Rk1HMEJnPT0K",
             "url": "https://file.leoking.xyz/release/linux/ipa_0.3.1_amd64.AppImage"
         }
     }
