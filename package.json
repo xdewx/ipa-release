@@ -15,5 +15,8 @@
   "dependencies": {
     "@algolia/client-search": "^4.19.1",
     "vuepress-plugin-auto-catalog": "2.0.0-beta.233"
+  },
+  "engines": {
+    "node": "24.x"
   }
 }
