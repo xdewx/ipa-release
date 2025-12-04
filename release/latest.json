@@ -1,7 +1,7 @@
 {
   "version": "0.3.1",
   "notes": "1. 确保目录存在\n2. 避免蓝牙插件启动失败导致应用崩溃",
-  "pub_date": "2025-12-04T10:45:36.789155",
+  "pub_date": "2025-12-04T07:44:31.655+00:00",
   "platforms": {
     "linux-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMHN5KzFlOGhmd3JaMUhMa3U5V1AzeTVGck1idnhZWTZSM3BkYS9TUXJJTGxPWUFCR0Urd0FQRXhlQUpiaE5pRnJyZFdhelRBbUNocHllS0VWV3ZGU0xUdm9OTVZEb0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQ4NTgwMTI1CWZpbGU6aXBhXzAuMy4xX2FtZDY0LkFwcEltYWdlClpxZlplZm9mNGlSNEhzb0VxTFZIRlE2S3VZMmh2VFpIdENFbG1IQkNhcmkrbXFiZFk0ek9MZXdBczF4Z1pFNDZycXVCVFV4Vko4R3VBcXQ4Rk1HMEJnPT0K",
