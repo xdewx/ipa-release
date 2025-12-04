@@ -1,14 +1,14 @@
 {
   "version": "0.3.1",
-  "notes": "1. 修复已知问题",
-  "pub_date": "2025-12-02T21:04:07.627344",
+  "notes": "1. 确保目录存在\n2. 避免蓝牙插件启动失败导致应用崩溃",
+  "pub_date": "2025-12-04T10:45:36.789155",
   "platforms": {
     "linux-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMHN5KzFlOGhmd3JaMUhMa3U5V1AzeTVGck1idnhZWTZSM3BkYS9TUXJJTGxPWUFCR0Urd0FQRXhlQUpiaE5pRnJyZFdhelRBbUNocHllS0VWV3ZGU0xUdm9OTVZEb0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQ4NTgwMTI1CWZpbGU6aXBhXzAuMy4xX2FtZDY0LkFwcEltYWdlClpxZlplZm9mNGlSNEhzb0VxTFZIRlE2S3VZMmh2VFpIdENFbG1IQkNhcmkrbXFiZFk0ek9MZXdBczF4Z1pFNDZycXVCVFV4Vko4R3VBcXQ4Rk1HMEJnPT0K",
       "url": "https://file.leoking.xyz/release/linux/ipa_0.3.1_amd64.AppImage"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMHN5KzFlOGhmd3BFUW1EZGg1VnE3TEZFcTJ6dEpwdWFjVlhUZndFZ0ZmQUdzT3IzWlVXamlJV0RsRk93SDFBVUlSbGp4VFFvYlJwelJPN1ZUUkpDMS9jRVg5VitSdXc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY0Njc4NjgwCWZpbGU6aXBhXzAuMy4xX3g2NC1zZXR1cC5leGUKWXlnelVrL1JOSFpZVXpWclB4cVZMcStJNEVRZkNJcm1iNC91dGVRY3d2akk1M2dONzlPM1lQRmEwSGpZMkYxdkdWZXZFd2UwdnZlZ2xReDhveTRjQ1E9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMHN5KzFlOGhmd2tWV1Y0MTF4Q1g2dFA5OXV4dUNZY0cvMEFFSzdxaU53dkMrMjVEODM1K0pGcW8zLy8rMHovdmVGTERpeityL1phMWpNNFlrVVptY015Sy8xS1pPN0FNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY0ODE2MTg0CWZpbGU6aXBhXzAuMy4xX3g2NC1zZXR1cC5leGUKMnZhQlJBYWZOTlFJZXA3a0h6aENHSzZUelpwU1Zwc0ZHcDRXWXJmMmo0Z2VDZ20rZjJRcjdRVXdkZThEcWhraVlKRElBMVJjK2lmZE5PcVRRR2NsRHc9PQo=",
       "url": "https://file.leoking.xyz/release/windows/ipa_0.3.1_x64-setup.exe"
     }
   }
